@@ -1,0 +1,50 @@
+.services-wrapper-container {
+    overflow-x: scroll;
+}
+
+.services-wrapper {
+    min-width: 1240px;
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: warp;
+    /* border: 1px solid red; */
+}
+
+.service {
+    width: 300px;
+    height: 340px;
+    margin: 10px 10px 100px;
+    border-radius: 24px;
+    position: relative;
+}
+
+.service a:hover {
+  color: inherit;
+}
+
+.service h4 {
+    font-weight: 700;
+}
+.service img {
+    display: inline-block;
+    width: 60%;
+    position: relative;
+    z-index: 1;
+}
+.service-text {
+    background-color: #fff;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .2);
+    padding: 100px 24px 24px;
+    border-radius: 24px;
+    position: absolute;
+    bottom: 0;
+}
+
+.service:hover {
+    transform: scale(1.05);
+    transition: 100ms cubic-bezier(.65,0,.44,1.23);
+  }
+.service:hover .service-text {
+    background-color: royalblue;
+    color: #fff;
+  }

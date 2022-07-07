@@ -1,0 +1,88 @@
+.img-about-wrapper {
+  width: 120px;
+  height: 120px;
+  margin: auto;
+}
+
+.about h5 {
+  color: #ccc
+}
+
+.about-card {
+  width: 100%;
+  padding: 30px;
+  margin: 10px 0;
+  border-radius: 20px;
+  background-color: tomato;
+  color: #fff;
+  text-align: start;
+}
+
+.webdev-wrapper, .addtech {
+  width: 100%;
+  padding: 5px 0;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: space-between;
+  overflow: hidden;
+}
+.addtech {
+  justify-content: flex-start;
+}
+
+.webdev-wrapper h5, .addtech h5, .phpwp h5 {
+  padding: 8px 16px;
+  border-radius: 10px;
+  margin: 0;
+  font-size: 16px;
+}
+.webdev-wrapper h5:first-child {
+  background-color: #c24a34;
+}
+.webdev-wrapper h5:nth-child(2) {
+  background-color: royalblue;
+}
+.webdev-wrapper h5:nth-child(3), .addtech h5:nth-child(3) {
+  background-color: #e6ac25;
+}
+
+.about-card:nth-child(2) {
+  background-color: blueviolet;
+}
+.addtech h5 {
+  margin: 10px 10px 0 0;
+}
+.addtech h5:first-child {
+  background-color: #6016a6;
+}
+.addtech h5:nth-child(2), .addtech h5:nth-child(5) {
+  background-color: #14803a;
+}
+.addtech h5:nth-child(4) {
+  background-color: #0d4c75;
+}
+
+.also {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.phpwp {
+  flex: 1;
+  background-color: #360b8c;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.phpwp:nth-child(2) {
+  flex: 2;
+  background-color: royalblue;
+  margin: 0;
+}
+.phpwp h5 {
+  margin: 0;
+}

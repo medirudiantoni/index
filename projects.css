@@ -1,0 +1,53 @@
+.projects h1 {
+  font-size: 68px;
+  font-weight: bold;
+  line-height: .7;
+  font-family: 'Poppins', Sans-Serif;
+}
+.projects h1:first-child {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: .1px;
+}
+
+.projects-wrapper-container {
+  overflow-x: scroll;
+}
+
+.projects-wrapper {
+  min-width: 1240px;
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: warp;
+}
+
+.project {
+  width: 300px;
+  height: 400px;
+  margin: 10px;
+  border-radius: 24px;
+  display: inline-block;
+}
+.project-img {
+  width: 100%;
+  height: 250px;
+  padding: 20px;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.project img {
+  width: 100%;
+}
+
+.project:first-child .project-img {
+  background-color: salmon;
+}
+.project:nth-child(2) .project-img {
+  background-color: teal;
+}
+.project:nth-child(3) .project-img {
+  background-color: royalblue;
+}
+.project:nth-child(4) .project-img {
+  background-color: brown;
+}

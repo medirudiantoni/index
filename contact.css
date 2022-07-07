@@ -1,0 +1,31 @@
+.contact {
+  min-height: 890px;
+  position: relative;
+}
+.contact .mb-responsive {
+  margin-bottom: 60px;
+}
+.contact .row:first-child h1 {
+  font-size: 84px;
+}
+.contact .container-fluid {
+  height: 100%;
+  background-color: #000;
+  color: #fff;
+  position: absolute;
+  bottom: 200%;
+  transition: 0ms cubic-bezier(.65,0,.44,1.23);
+  text-align: start;
+}
+
+@media screen and (max-width: 767px) {
+  .contact .container-fluid {
+    text-align: center;
+  }
+  .contact .mb-responsive {
+    margin-bottom: 0;
+  }
+  .contact .row:first-child h1 {
+    font-size: 38px;
+  }
+}
