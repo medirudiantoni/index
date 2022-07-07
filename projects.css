@@ -6,7 +6,7 @@
 }
 .projects h1:first-child {
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: .6px;
+  -webkit-text-stroke-width: 1px;
 }
 
 .projects-wrapper-container {
